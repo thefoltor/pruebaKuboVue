@@ -31,7 +31,7 @@ export default {
     },
     methods:{
         send(){
-            Axios.post("http://localhost:3000/addMovie",{
+            Axios.post("http://pruebakubo.herokuapp.com/addMovie",{
                 title:this.title,
                 image:this.image,
                 description:this.description,
