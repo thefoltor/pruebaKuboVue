@@ -18,7 +18,7 @@ export default {
         }
     },
     mounted(){
-        Axios.get("http://pruebakubo.herokuapp.com/getMovies").then((response)=>{
+        Axios.get("https://pruebakubo.herokuapp.com/getMovies").then((response)=>{
             this.movies = response.data.data;
         }).catch((error)=>{
             console.log(error);
